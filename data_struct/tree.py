@@ -158,4 +158,3 @@ if __name__ != '__main__':
     cal.add_child(Place('Palo Alto'))
 
     whole.print_tree(3)
-
