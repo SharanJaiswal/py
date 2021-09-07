@@ -1,0 +1,7 @@
+2021-09-06 23:40:27,221:ERROR:The number is 456123.
+2021-09-06 23:40:27,221:CRITICAL:The number is 456123.
+2021-09-06 23:40:27,221:ERROR:Tried dividing by Zero. Also, traceback will also be logged.
+Traceback (most recent call last):
+  File "/home/sharan/projects/py/concept_notebooks/015_logging/derive.py", line 40, in __init__
+    2/0
+ZeroDivisionError: division by zero

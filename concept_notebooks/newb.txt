@@ -3,3 +3,12 @@ Python is awesome
 Python is awesome
 Python is awesome
 Python is awesome
+ Lorem ipsum dolor
+ Lorem ipsum dolor
+Testing from context manager
+Lorem ipsum dolor
+Testing from context manager
+Lorem ipsum dolor
+Testing from context manager
+Lorem ipsum dolor
+Testing from context manager
