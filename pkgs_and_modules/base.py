@@ -10,7 +10,7 @@ from functools import reduce
 
 # In case to print the location of the package location (present for the current environment) on the system:
 # This will only work if the package is installed in the environment. Else complete path will be asked to locate the package, which is absurd!
-print('Package Location is : ', arithmetic.__file__)
+print('Package Location is : ', Coords.__file__)
 print('\n'*2)
 
 """ https://docs.python.org/3/library/random.html """
