@@ -1,3 +1,6 @@
+# https://docs.python.org/3/howto/argparse.html
+# https://stackoverflow.com/questions/6835692/how-to-use-namespace-returned-by-parse-known-args
+
 import argparse
 
 if __name__ == '__main__':

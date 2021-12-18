@@ -12,3 +12,4 @@ Lorem ipsum dolor
 Testing from context manager
 Lorem ipsum dolor
 Testing from context manager
+Testing from context manager
