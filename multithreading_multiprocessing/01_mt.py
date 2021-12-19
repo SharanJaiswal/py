@@ -14,6 +14,7 @@ def main():
     print(threading.active_count()) # count of thread objects that are alive. Actually it returns the length of threading.enumerate()
     print(threading.enumerate())    # outputs the list of thread, child thread name, start epoc of that thread
     print(threading.current_thread())   
+    print(threading.current_thread().getName())   
 
 if (__name__ == '__main__'):
     main()

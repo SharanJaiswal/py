@@ -6,6 +6,7 @@ def first_func():
     while(x < 300):
         x += 1
 
+    print(threading.current_thread())
     if x == 300:
         print(x)
     
@@ -16,6 +17,7 @@ def second_func():
     while(x < 600):
         x += 1
     
+    print(threading.current_thread())
     print(x)
 
 def main():
@@ -33,6 +35,7 @@ def main():
     second_thread.start()
 
     print(threading.enumerate())
+    print(threading.current_thread())
 
 
 if (__name__ == '__main__'):

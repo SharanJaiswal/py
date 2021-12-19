@@ -1,7 +1,7 @@
 import multiprocessing
 
 # We will use shared memory concept so that specific memories can be accessed by more than one processes
-# There are two types of data structures here in this prog, that can be shared among processes; first is multithreading.Array & multithreading.Value
+# There are two types of data structures here in this prog, that can be shared among processes; first is multiprocessing.Array & multiprocessing.Value
 
 def calc_square(numbers, result, v):
     # since shared memory has not few special methods, hence we have to use index to access the shared array
