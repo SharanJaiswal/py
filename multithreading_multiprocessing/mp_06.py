@@ -1,3 +1,4 @@
+# https://lih-verma.medium.com/multi-processing-in-python-process-vs-pool-5caf0f67eb2b
 # CPU multi-core programming, parallel programming/execution
 # map(assigning the input task by division of inputs over cores) and reduce(aggragating the executed task to single output)
 
