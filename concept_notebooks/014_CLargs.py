@@ -18,11 +18,15 @@ if __name__ == '__main__':
 	parser.add_argument('num1', help='First number')    # Positional Arguments' names must be different from Optional arguments
 	parser.add_argument('num2', help='Second number')   # Positional Arguments' names must be different from Optional arguments
 	parser.add_argument('operator', help='Operator')    # Positional Arguments' names must be different from Optional arguments
-	parser.add_argument('--num1o', help='First opt number')  # Optional Arguments' names must be different from positional arguments
+	parser.add_argument('n1', '--num1o', help='First opt number')  # Optional Arguments' names must be different from positional arguments
 	parser.add_argument('--num2o', help='Second opt number') # Optional Arguments' names must be different from positional arguments
 	parser.add_argument('--oprtr', help='Optional operator', choices=['add', 'sub', 'div']) # restricting user to choose between from the choices
 	# The choices attribute is also available for the Positional arguments. In both types, if choiceis not matched, then error will occur
 	# REMEMBER: parsed arguments come back to the program in the form of 'str'. Make sure to convert them to suitable required datatype
+
+	# action with optional args::: action="store_true" ===> means, if specified --opt_arg only, then it'll assume its flag value as True, 
+	# rather asking for at least 1 value. If not speified --opt_val argument, then it is assumed to be false.
+	# action="count", type="int", default=["]<val>["]
 
 	# Now we will parse the argumenst passed to run this script form the cmd terminal
 	args = parser.parse_args()
