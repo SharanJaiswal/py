@@ -19,7 +19,7 @@ def main():
     # Daemon value must be set before the start method is called for that thread. Otherwise, it will throw a runtime error.
     # Initial value of daemon status of the thread is inherited from the thread it is created from.
     # MainThread is not a Daemon thread. Hence, actual normal python code is not a daemon thread.
-    # entire python program exists when no alive non-daemon threads are left. Hence when main thread closes, then only THE PYTHON PROGRAM closes since PYTHON is DAEMON.
+    # entire python program exits when no alive non-daemon threads are left. Hence when main thread closes, then only THE PYTHON PROGRAM closes since PYTHON is DAEMON.
 
     main_thread = threading.enumerate()[0]
     print(main_thread)

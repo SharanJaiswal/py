@@ -29,7 +29,7 @@ if __name__ == '__main__':
 	# action="count", type="int", default=["]<val>["]
 
 	# Now we will parse the argumenst passed to run this script form the cmd terminal
-	args = parser.parse_args()
+	args = parser.parse_args()	# this_args, rem_args = parser.paarse_known_args()
 	print(args.num1)
 	print(args.num2)
 	print(args.operator)
