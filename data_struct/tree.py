@@ -54,7 +54,7 @@ if __name__ != '__main__':
     root = build_product_tree()
     print(root.print_tree())
 
-if __name__ != '__main__':
+if __name__ == '__main__':
     class TreeNode:
         def __init__(self, value):
             self.post = value[0]

@@ -14,4 +14,4 @@ for perm in permutations:
     print(perm)
 
 print('Application :')
-print([results for results in combinations if sum(results) == 10])
+print([results for results in combinations if sum(results) == 4])
